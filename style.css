@@ -1,5 +1,28 @@
+* {
+  text-align: center;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+nav a {
+  background-color: pink;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section#featured-property p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+section#details div{
+  float:left;
+  background-color: lightblue;
+  text-align: center;
+  width: 25%;
 }
